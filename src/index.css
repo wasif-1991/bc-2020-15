@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.bridgespan.org/bridgespan/Images/test/Education_hero-image-template_tablet-768x450px.png?ext=.png");
+}
+
+.App{
+  width: 40rem;
+  margin: 6rem auto;
+  background-color: #fcfcfc6e;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px teal;
+}
+
+@media only screen and (max-width: 768px) {
+  .App{
+    margin: 1rem auto;
+    width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .App{
+    margin: 1rem auto;
+    width: 15rem;
+  }
+}
+
+.button{
+  width: 40rem;
+  padding: 10px;
+  margin: 25px auto;
+  font-size: larger;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 10px grey;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .button{
+    width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .button{
+    width: 15rem;
+  }
+}
+
+.button:hover{
+  background-color: teal;
+  color: white;
+  box-shadow: 5px 5px 10px teal;
+}
+
+.radio-opt{
+  max-width: 40rem;
+  padding: 12px;
+  background-color: #00b2b2;
+  color: white;
+  border-radius: 10px;
+  margin: 14px auto;
+  box-shadow: 2px 2px 5px teal;
+}
+
+.radio-opt:hover{
+  background-color: green;
+  color: yellow;
+  box-shadow: 2px 2px 5px green;
+}
+
+.radio-btn {
+  padding-left: 10px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.result{
+  max-width: 40rem;
+  margin: 12rem auto 6rem auto;
+  background-color: #fcfcfc6e;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px teal;
+  text-align: center;
+  font-size: larger;
+}
+
+@media only screen and (max-width: 768px) {
+  .result{
+    width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .result{
+    width: 15rem;
+  }
+}
